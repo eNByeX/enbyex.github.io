@@ -1,6 +1,7 @@
 ---
 layout: default
 display: NoteBlock <strong>Exporter</strong>
+mobile: NoteBlock Exporter <small>NBExport</small>
 ---
 ##About
 The NoteBlock Exporter allows you to convert Note Block songs into the following formats:
