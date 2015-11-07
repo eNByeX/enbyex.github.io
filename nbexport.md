@@ -18,11 +18,13 @@ The schematic exporter allows you to import your Note Block songs into Minecraft
 
 Highlights:
 
-- Native Wireless Note Block Songs!
+- Can directly export Wireless Note Block songs!
 
-    \[TODO explain why this is good, e.g. how it doesn't use custom instruments or MCEdit filters.\]
+    Because this is built-in, it limits neither how many notes you can play at once, nor how many instruments you can have.
 - Support for custom instruments!
 - Command Block Songs!
+
+    Command Blocks can specify volume, unlike vanilla Note Blocks.
 - Support for 20 TPS songs!
 
 ###Lua
