@@ -1,3 +1,6 @@
+---
+# jekyll front matter
+---
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 html {
   background: #6C7989;
@@ -19,7 +22,7 @@ body {
 }
 
 .wrapper {
-  width: 640px;
+  width: 800px;
   margin: 0 auto;
   background: #DEDEDE;
   -webkit-border-radius: 8px;
@@ -139,21 +142,20 @@ header ul:before {
   box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
 }
 header ul li {
-  width: 79px;
+  width: 90px;
   float: left;
-  border-right: 1px solid #3A7CBE;
   height: 38px;
 }
 header ul li.single {
   border: none;
 }
 header ul li + li {
-  width: 78px;
+  width: 90px;
   border-left: 1px solid #8BBEF3;
 }
 header ul li + li + li {
   border-right: none;
-  width: 79px;
+  width: 90px;
 }
 header ul a {
   line-height: 1;
@@ -302,7 +304,7 @@ footer p + p {
   float: right;
 }
 
-@media print, screen and (max-width: 740px) {
+@media print, screen and (max-width: 991px) {
   body {
     padding: 0;
   }
@@ -336,7 +338,7 @@ footer p + p {
     float: none;
   }
 }
-@media print, screen and (max-width:580px) {
+@media print, screen and (max-width:768px) {
   header ul {
     display: none;
   }
@@ -351,6 +353,6 @@ footer p + p {
 }
 @media print {
   header p.view a small:before {
-    content: 'at https://github.com/';
+    content: 'at {{ site.github.owner_url }}/';
   }
 }
